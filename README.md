@@ -1,8 +1,8 @@
 # Automated Mask Generation for Vegetation Monitoring Using Citizen Science Data
 
 Welcome to the repository for our study on automating mask generation for vegetation monitoring! This project explores the integration of **Segment Anything Model (SAM)** and **Grad-CAM** to create per-pixel segmentation masks from crowd-sourced plant photographs, enabling the training of segmentation models with minimal manual effort. Our approach leverages citizen science platforms like iNaturalist and Pl@ntNet, along with high-resolution UAV imagery, to advance scalable and cost-effective biodiversity monitoring.
-
-![Workflow](https://github.com/salimsoltani28/Flora_Mask/blob/main/Workflow_edit.png))
+The figure below shows the general steps for this workflow:
+![Workflow](https://github.com/salimsoltani28/Flora_Mask/blob/main/Workflow_edit.png)
 
 ---
 
