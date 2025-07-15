@@ -52,5 +52,5 @@ This study demonstrates the feasibility of automating segmentation mask generati
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-repo/vegetation-monitoring-masks.git
-   cd vegetation-monitoring-masks
+   git clone https://github.com/salimsoltani28/Flora_Mask.git
+   cd Flora_Mask
