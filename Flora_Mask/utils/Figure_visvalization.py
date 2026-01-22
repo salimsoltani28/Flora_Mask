@@ -26,8 +26,8 @@ Background_class = 120
 Num_images_to_process = 22  # Number of random images to process
 
 # Load models and preprocessing
-model_path = '/mnt/gsdata/users/soltani/Workshop_home_fromSSD2/Workshop_home/Flora_Mask/2_myDiv/checkpoints/CNN_updated_code_withValidation/best_model_80_0.03.pth'
-sam_checkpoint = '/mnt/gsdata/users/soltani/Workshop_home_fromSSD2/Workshop_home/Flora_Mask/1_Mt_baldy/checkpoint/SAM_models/sam_vit_h_4b8939.pth'
+model_path = '/yourpath//checkpoints/CNN_updated_code_withValidation/best_model_80_0.03.pth'
+sam_checkpoint = '/yourpath/checkpoint/SAM_models/sam_vit_h_4b8939.pth'
 
 patterns = tuple(['.jpg', '.png', '.JPEG', '.JPG', '.PNG', '.jpeg'])
 
