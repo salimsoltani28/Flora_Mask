@@ -12,8 +12,8 @@ from torch.optim.lr_scheduler import OneCycleLR
 from torch.utils.tensorboard import SummaryWriter
 
 # Paths and constants
-checkpoint_path = "/mnt/ssd2/ms2487/Workshop_home/1_Flora_mask/2_myDiv/checkpoints/CNN_updated_code_withValidation/"
-data_path = "/mnt/ssd2/ms2487/Workshop_home/1_Flora_mask/2_myDiv/data/Labeled_data_seprated_in_Folder/image/"
+checkpoint_path = "/yourpath//checkpoints/CNN_updated_code_withValidation/"
+data_path = "/yourpath//data/Labeled_data_seprated_in_Folder/image/"
 num_img_per_class = 4000
 batch_size = 16
 num_epochs = 150
