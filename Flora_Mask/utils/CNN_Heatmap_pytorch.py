@@ -27,7 +27,7 @@ num_classes = 11
 model.classifier[1] = torch.nn.Linear(model.classifier[1].in_features, num_classes)
 
 # Load model weights
-model.load_state_dict(torch.load('/mnt/gsdata/users/soltani/Workshop_home_fromSSD2/Workshop_home/Flora_Mask/2_myDiv/checkpoints/checkpoint/best_model_110_0.31.pth'))
+model.load_state_dict(torch.load('/yourpath//Flora_Mask/2_myDiv/checkpoints/checkpoint/best_model_110_0.31.pth'))
 
 # Set device to GPU:1
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
@@ -40,8 +40,8 @@ model.eval()
 target_layers = [model.features[-1]]
 
 # Path to the folder with images
-folder_path = '/mnt/gsdata/users/soltani/Workshop_home_fromSSD2/Workshop_home/Flora_Mask/2_myDiv/data/data_check/First_class/'
-save_folder = '/mnt/gsdata/users/soltani/Workshop_home_fromSSD2/Workshop_home/Flora_Mask/2_myDiv/data/data_check/output/'
+folder_path = '/yourpath//Flora_Mask/2_myDiv/data/data_check/First_class/'
+save_folder = '/yourpath//Flora_Mask/2_myDiv/data/data_check/output/'
 
 # Ensure the save folder exists
 os.makedirs(save_folder, exist_ok=True)
