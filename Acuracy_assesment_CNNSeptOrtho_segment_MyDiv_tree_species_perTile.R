@@ -33,7 +33,7 @@ path_pred <- args[1]
 options(digits = 7)
 message("Reading the predictions from:", paste(path_pred, collapse = ", "))
 #read the orthoimage
-orthodir <-   "/mnt/FS_data/ms2487/workshop/1_FloraMask/2_MyDiv/2_data/UAV_data/03_Orthoimage_Sept_15_alt_2022/"
+orthodir <-   "/yourpath/2_MyDiv/2_data/UAV_data/03_Orthoimage_Sept_15_alt_2022/"
 #plot_type <- list.files(orthodir, recursive = T, pattern = "Plot_boundary.shp",full.names = T) %>% readOGR()
 #path_pred <- "/scratch2/ssoltani/workshop/10_CNN_tree_species/1_Citzen_to_Unet_project/outdir/BestPred_googleimage_sieved50px_13Aprilfinal_pred_majorityvote_test/"
 
@@ -65,7 +65,7 @@ if(length(predictions_list)==20){
 cores <- 50#detectCores()-8
 cl <- makePSOCKcluster(cores)
 registerDoParallel(cl)
-clusterEvalQ(cl, .libPaths("/home/ssoltani/R/x86_64-pc-linux-gnu-library/4.2"))
+#clusterEvalQ(cl, .libPaths("/home/youruserName/R/x86_64-pc-linux-gnu-library/4.2"))
 # 
 # #clusterEvalQ(cl, .libPaths("Your library path"))
 Acc_val <- foreach(g = seq_len(nrow(AOI)), .packages = c("terra","raster", "rgdal","tidyverse","MLmetrics", "rgeos","foreach","doParallel"), .inorder = T) %dopar% { #,.combine = rbind
