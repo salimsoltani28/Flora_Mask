@@ -17,7 +17,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Setup base directory and parameters
-base_dir = '/mnt/gsdata/users/soltani/Workshop_home_fromSSD2/Workshop_home/Flora_Mask/2_myDiv/data/plantNet'
+base_dir = '/yourpath//Flora_Mask/2_myDiv/data/plantNet'
 Threshold_value = 150
 No_of_sampled_points = 2
 No_classes = 11
@@ -25,8 +25,8 @@ Batch_size = 5  # Adjust batch size based on your GPU capacity
 Background_class = 120
 
 # Load models and preprocessing
-model_path = '/mnt/gsdata/users/soltani/Workshop_home_fromSSD2/Workshop_home/Flora_Mask/2_myDiv/checkpoints/CNN_updated_code_withValidation/best_model_80_0.03.pth'
-sam_checkpoint = '/mnt/gsdata/users/soltani/Workshop_home_fromSSD2/Workshop_home/Flora_Mask/1_Mt_baldy/checkpoint/SAM_models/sam_vit_h_4b8939.pth'
+model_path = '/yourpath//Flora_Mask/2_myDiv/checkpoints/CNN_updated_code_withValidation/best_model_80_0.03.pth'
+sam_checkpoint = '/yourpath//Flora_Mask/1_Mt_baldy/checkpoint/SAM_models/sam_vit_h_4b8939.pth'
 
 patterns = tuple(['.jpg', '.png', '.JPEG', '.JPG', '.PNG', '.jpeg'])
 
