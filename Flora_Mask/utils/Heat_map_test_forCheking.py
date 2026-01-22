@@ -51,8 +51,8 @@ sam.to(device=device)
 predictor = SamPredictor(sam)
 
 # Directories
-folder_path = '/mnt/gsdata/users/soltani/Workshop_home_fromSSD2/Workshop_home/Flora_Mask/1_Mt_baldy/data/1_Mt_Baldy_data_check'  # Update this path
-save_folder = '/mnt/gsdata/users/soltani/Workshop_home_fromSSD2/Workshop_home/Flora_Mask/2_myDiv/Test_delete/'  # Update this path
+folder_path = '/yourpath//data/1_Mt_Baldy_data_check'  # Update this path
+save_folder = '/yourpath/Flora_Mask/2_myDiv/Test_delete/'  # Update this path
 os.makedirs(save_folder, exist_ok=True)
 
 # Preprocess function
