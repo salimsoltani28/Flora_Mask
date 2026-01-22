@@ -26,6 +26,6 @@ def create_mask_for_images(source_folder, target_folder):
             mask_img.save(os.path.join(target_folder, mask_filename))
 
 # Usage
-source_folder = '/mnt/gsdata/users/soltani/Workshop_home_fromSSD2/Workshop_home/Flora_Mask/2_myDiv/data/image/011_Grass'
-target_folder = '/mnt/gsdata/users/soltani/Workshop_home_fromSSD2/Workshop_home/Flora_Mask/2_myDiv/data/masks/011_Grass_Mask'
+source_folder = '/yourpath//Flora_Mask/2_myDiv/data/image/011_Grass'
+target_folder = '/yourpath//Flora_Mask/2_myDiv/data/masks/011_Grass_Mask'
 create_mask_for_images(source_folder, target_folder)
