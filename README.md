@@ -43,9 +43,6 @@ This study demonstrates the feasibility of automating segmentation mask generati
 ## **Repository Contents**
 
 1. **Code**: Scripts for training models, applying SAM and Grad-CAM, and generating segmentation masks.
-2. **Data Examples**: Example UAV orthoimages and crowd-sourced plant photographs used in this study.
-3. **Documentation**: Detailed instructions for setting up, running the workflow, and reproducing the results.
-4. **Results**: Performance metrics (F1 scores, precision, recall) for the trained models applied to UAV imagery.
 
 ---
 
