@@ -12,7 +12,7 @@ colors = plt.cm.tab20(cmap_values)  # Using tab20 colormap for more options
 cmap = mcolors.ListedColormap(colors)
 
 # Path to the folder containing images and masks
-data_folder = "/mnt/gsdata/users/soltani/Workshop_home_fromSSD2/Workshop_home/Flora_Mask/2_myDiv/data/plantNet/"
+data_folder = "yourpath/Flora_Mask/2_myDiv/data/plantNet/"
 
 # Get list of class folders
 class_folders = os.listdir(data_folder)
